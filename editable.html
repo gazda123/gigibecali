@@ -1,71 +1,247 @@
-<!DOCTYPE html><html lang="" class="silex-runtime"><head>
-    <meta charset="UTF-8">
-    <!-- generator meta tag -->
-    <!-- leave this for stats and Silex version check -->
-    <meta name="generator" content="Silex v2.2.10">
-    <!-- End of generator meta tag -->
-    <script type="text/javascript" src="https://editor.silex.me/static/2.10/jquery.js" data-silex-static=""></script>
-    <script type="text/javascript" src="https://editor.silex.me/static/2.10/jquery-ui.js" data-silex-static=""></script>
-    <script type="text/javascript" src="https://editor.silex.me/static/2.10/pageable.js" data-silex-static=""></script>
-    <script type="text/javascript" src="https://editor.silex.me/static/2.10/front-end.js" data-silex-static=""></script>
-    <link rel="stylesheet" href="https://editor.silex.me/static/2.10/normalize.css" data-silex-static="">
-    <link rel="stylesheet" href="https://editor.silex.me/static/2.10/front-end.css" data-silex-static="">
+<html lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<meta name="DC.creator" content="Club Penguin Online" />
+	<meta name="robots" content="index, follow" />
+	<meta name="description" content="Welcome to Club Penguin Online, a virtual world for kids guided by an unwavering commitment to safety and creativity.">
+	<meta name="keywords" content="CPPS, Club Penguin, Penguin, Club Penguin Online, Club, Mirai, Club Penguin Spain, Club Penguin Spanish, Club Penguin Espanol, Club Penguin Brasil, Club Penguin Rewritten, Oasis, FreePenguin, VIPenguin, VirtualPenguin, Virtual Penguin, Club Penguin Private Server, cps, cp spain, cpspain, cpo, cponline, cp online, club penguin island, game, MMO, virtual world">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
 
-    <style type="text/css" class="silex-style"></style>
-    <script type="text/javascript" class="silex-script"></script>
-    <style class="silex-inline-styles" type="text/css">.body-initial {background-color: rgba(255,255,255,1);}.silex-id-1478366444112-1 {top: 100px; background-color: transparent; min-height: 100px;}.silex-id-1478366444112-0 {min-height: 100px; background-color: transparent; width: 1200px;}.silex-id-1474394621033-3 {top: 5px; left: 0px;}.silex-id-1474394621032-2 {min-height: 600px; background-color: transparent; width: 1200px;}.silex-id-1478366450713-3 {top: 100px; background-color: transparent;}.silex-id-1478366450713-2 {min-height: 100px; background-color: transparent; width: 1200px;}.silex-id-1442914737143-3 {min-height: 53px; width: 349px; top: 29px; left: 430px;}</style>
-    <title></title>
-    <script type="text/json" class="silex-json-styles">[{"fonts":[{"family":"'Roboto', sans-serif","href":"https://fonts.googleapis.com/css?family=Roboto"}],"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"top":"5px","left":"0px"},"silex-id-1474394621032-2":{"min-height":"600px","background-color":"transparent","width":"1200px","top":"","left":"","height":""},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1442914737143-3":{"min-height":"53px","width":"349px","top":"29px","left":"430px","height":""},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px","top":"","left":"","height":""},"silex-id-1478366444112-1":{"top":"100px","background-color":"transparent","min-height":"100px","left":"","height":""},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px","top":"","left":"","height":""},"silex-id-1478366450713-3":{"top":"100px","background-color":"transparent"}},"mobile":{},"prodotypeData":{"component":{},"style":{"all-style":{"className":"all-style","templateName":"text","displayName":"All style","styles":{"desktop":{"normal":{"className":"all-style","pseudoClass":"normal","All":{"font-family":"'Roboto', sans-serif"}}}}}}}}]</script>
+	<title>Club Penguin Online - The New Club Penguin</title>
+	<link href="sites/default/files/css/css_cawUUwTb6FTEpTC7UYZQwdcaTVHlWORZjZlFNt1mXNc.css" media="all" rel="stylesheet" type="text/css">
+	<link href="sites/default/files/css/css_5FxwTVZs9EtbjcExytQ5ndQqt-X7PFwK3mD2o7QXYH0.css" media="all" rel="stylesheet" type="text/css">
+	<link href="sites/default/files/css/css_Ithmjuj4ePlnkLrL_GIuS3TsGEoCIelrKOCUPBOfhJ8.css" media="all" rel="stylesheet" type="text/css">
+	<link href="sites/default/files/css/css_6sGcdaud_kk5LWaaq4lZk2ZLw8uneQM4wYx5rg2QgOM.css" media="all" rel="stylesheet" type="text/css">
+	<link href="sites/default/files/css/css_9Heh1u--mIfOomnfZC-JIjM3PxmkhjTogDetvyuVnMU.css" media="all" rel="stylesheet" type="text/css">
+	<link href="sites/default/files/css/css_5AoaSUlnRluwt_SO1GRzTQdCdcJf0Aw-MqGesNvp_6Y.css" media="all" rel="stylesheet" type="text/css">
+	<link href="https://media2.cponline.pw/css/sites/upgrade.css?v=0.1" media="all" rel="stylesheet" type="text/css">
+	<!--[if lte IE 9]>
+		<link type="text/css" rel="stylesheet" href="//play.clubpenguin.comsites/play.clubpenguin.com/themes/club_penguin/css/ie-lte-9.css?om3jak" media="all" />
+	<![endif]-->
+	<!--[if (lt IE 9)&(!IEMobile)]>
+		<link type="text/css" rel="stylesheet" href="//play.clubpenguin.comsites/default/files/css/css__vb7XZfXeuRXjYmfY6lNTg-jy-9kxy0K07AXHAQnnDQ.css" media="all" />
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+	<link href="sites/default/files/css/css_lpn3saPwnh0DOdveZjtLNqWuVLzzK8A98rurOUMUo0s.css" media="all" rel="stylesheet" type="text/css"><!--<![endif]-->
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<style type="text/css">
+		#notification-area .notification-message { font-size: 15px; }
+		#notification-area .notification-message p { line-height: 40px; }
+		#notification-area .notification-message .block-content-wrap { padding-top: 0; }
+		.snowball #notification-area .notification-message .block-content-wrap { width: 75%; }
+	</style>
+	<script>
+	if (location.href.indexOf("https://") == -1) {
+		location.href = location.href.replace("http://", "https://");
+	}
+	if(window.location.href.indexOf("play.cponline.pw") != -1) {
+		var l = document.documentElement.lang;
+		if(l == 'en') {
+			l = '';
+		}
 
-    
-<style class="silex-prodotype-style" type="text/css" data-style-id="all-style">.text-element > .silex-element-content {font-family: 'Roboto', sans-serif;}</style><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="website-width" content="1200"><style type="text/css" class="silex-style-settings">.website-width {width: 1200px;}</style><meta name="hostingProvider" content="unifile"><!-- Silex HEAD tag do not remove -->
-    <!-- End of Silex HEAD tag do not remove --></head>
+		location.href = 'https://cponline.pw/play/' + l;
+	}
+	function showRules(lang) {
+		window.location.href = "https://rules.cponline.pw/?lang=" + lang;
+	}
+	function checkIfIE() {
+		if (/MSIE 10/i.test(navigator.userAgent)) {
+			return true;
+		}
 
-<body data-silex-id="body-initial" class="body-initial all-style enable-mobile prevent-draggable prevent-resizable prevent-selectable silex-runtime" data-silex-type="container-element" style="">
-    <div class="silex-pages">
-        
+		if (/MSIE 9/i.test(navigator.userAgent) || /rv:11.0/i.test(navigator.userAgent)) {
+			return true;
+		}
 
-        <a id="page-page-1" data-silex-type="page-element" class="page-element" href="#!page-page-1">Page 1</a></div>
+		if (/Edge\/\d./i.test(navigator.userAgent)){
+			return true;
+		}
+		return false;
+	}
+	$(document).ready(function() {
+		if(checkIfIE()) {
+			$("#ieMsg").text("Is the game stuck on a blue loading screen for you? Try using a different browser besides Internet Explorer or Microsoft Edge, such as Google Chrome or Mozilla Firefox.");
+		}
+		$.getJSON('https://cponline.pw/nav.json?v=0.1', function(data) {
+			var lang = document.documentElement.lang;
+			$('#notMsg').text(data['messages'][lang]['msg']);
+			$('.b2').text(data['messages'][lang]['btn']);
+			$('.type-generic').attr('href', data['btnLink']);
+		});
+	});
+	</script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body class="html not-front not-logged-in page-play full-page-flow i18n-en context-play snowball flash">
+	<div class="region region-page-top" id="region-page-top">
+		<div class="region-inner region-page-top-inner"></div>
+	</div>
+	<div class="page clearfix" id="page">
+		<header class="section section-header" id="section-header">
+			<div id="affiliate-header" style="display: none;">
+				<a href="//cponline.pw" id="affiliate-header-link"><img src="sites/cponline.pw/themes/snowball/img/affiliate-cp-logo.png"></a>
+			</div>
+			<div id='notification-area'>
+				<div class="responsive-block notification-message classic-sunset full_width has-button button-before" style="">
+					<div class="responsive-block-inner">
+						<div class='button-wrap'>
+							<a href='https://discord.gg/PREYT9n' target="_blank" class='button type-generic' data-type='generic'><span class='b1'><span class='b2'>Discord</span></span></a>
+						</div>
+						<div class="block-content-wrap ">
+							<a id="notification-close" href="#" onclick="closeNotifiaction();"><span>Close</span></a>
+							<div class="block-content"><p style="text-align:center;"><strong id="notMsg">Join our Discord server for exclusive news, mascot locations, and a chance to become a moderator!</strong></p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav>
+				<a href="//cponline.pw/" id="home-link">Home</a>
+				<ul class="mainnav" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+					<li itemprop="name"><a class="cpmenu" href="//secured.cponline.pw/penguin/en/create/" itemprop="url">Create Penguin</a></li>
+					<li itemprop="name"><a class="cpmenu" href="//cponline.pw/whats-new/" itemprop="url">Whats New?</a></li>
+					<li itemprop="name"><a class="cpmenu" href="//secured.cponline.pw/penguin/en/forgot-password/" itemprop="url">Change Password</a></li>
+					<li itemprop="name"><a class="cpmenu" href="//twitter.com/_CPOnline" itemprop="url">Twitter</a></li>
+					<li itemprop="name"><a class="cpmenu" href="https://discord.gg/PREYT9n" target="_blank" itemprop="url">Discord</a></li>
+				</ul>
+				<div id="language-select">
+					<div>
+						<a class="top-level" href="javascript:showLang()" id="language-select-link" tabindex="1">Language Select<span class="indicator" id="arr0w"></span></a>
+						<div id="bottom-languages">
+							<a class="first" href="/">ENGLISH</a>
+							<a href="/es/">ESPA&Ntilde;OL</a>
+							<a class="last" href="/pt/">PORTUGU&Ecirc;S</a>
+						</div>
+					</div>
+				</div>
+				<ul class="navbar navbar-right">
+					<li>
+						<a class="logout" href="//old.cponline.pw/" id="logout-link" style="display: inline-block;"><img src="sites/default/themes/snowball/img/icon-logout.png"> Old Client</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="banner"></div>
+		</header>
+		<div id="topAd">
+			<center>
+			<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5853386751525604" data-ad-slot="6189679962"></ins><script>(adsbygoogle=window.adsbygoogle || []).push({});</script>
+			</center>
+		</div>
+		<main id="content">
+			<section id="D_F_GameSection">
+				<center>
+					<b>Do you have Flash Player and it's still not loading? <a href="flashplayer.html">Click here</a></br></b>
+					<a href="//www.adobe.com/go/getflashplayer">
+						<img src="//www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player">
+					</a>
+				</center>
+			</section></br></br>
+		</main>
+		<div id="bottomAd">
+			<center>
+			<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5853386751525604" data-ad-slot="6189679962"></ins><script>(adsbygoogle=window.adsbygoogle || []).push({});</script>
+			</center>
+		</div>
+		<footer class="section section-footer" id="section-footer">
+			<p id="chatStuff"></p>
+			<p id="name">&copy; Club Penguin Online</p>
+			<!--<p id="footer-updated"><a href="http://cponline.pw/en/terms-of-use/" target="_blank">T?inos de uso</a> &nbsp;| &nbsp; <a href="http://cponline.pw/en/privacy-policy/" target="_blank">Pol?ca de privacidad</a> &nbsp;| &nbsp; <a href="http://disneyprivacycenter.com/kids-privacy-policy/spanish/" target="_blank">Pol?ca de privacidad de menores en Internet</a> &nbsp;| &nbsp; <a href="http://disneyprivacycenter.com/notice-to-california-residents/" target="_blank">Derechos de privacidad en California</a> &nbsp;| &nbsp; <a href="http://help.disney.com/en/clubpenguin/Contact?productCode=Club-Penguin" target="_blank">support.es@cponline.pw</a></p>-->
+			<p id="footer-legal">Club Penguin Online is an educational instance. We do not hold copyright for any of the files.</p>
+		</footer>
+	</div>
 
 
+	<div class="region region-page-bottom" id="region-page-bottom">
+		<div class="region-inner region-page-bottom-inner"></div>
+	</div>
 
 
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+		if (window.self !== window.top) {
+		   window.top.location.href = window.location.href;
+		}
+		var langOpen = false, chatHidden = true;
 
+		function toggleCha2t() {//remove 2
+			if(chatHidden) {
+				$("#chat").show();
+				$("#section-footer").css('top', '450px');
+				$("#toggleChats").text('Hide Chat');
+			} else {
+				$("#chat").hide();
+				$("#section-footer").css('top', '0px');
+				$("#toggleChats").text('Show Chat');
+			}
+			chatHidden = !chatHidden;
+		}
 
+		function closeNotifiaction() {
+		   document.getElementById('notification-area').style = 'display: none;';
+		}
 
+		function showLang() {
+		   if(!langOpen) {
+			   document.getElementById('language-select-link').style = "    padding-left: 20px;color: #0052af;background-color: #fff;background-image: none;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;border-radius: 5px 5px 0 0;border: 2px solid #0052af;border-width: 2px 2px 0 2px;";
+			   document.getElementById('arr0w').style = 'background-color: #fff;';
+			   document.getElementById('bottom-languages').style = 'display: block';
+			   langOpen = true;
+		   } else {
+			   document.getElementById('language-select-link').style = "    background-color: #008ce1;width: 185px;height: 26px;line-height: 26px;padding-left: 15px;color: #fff;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;";
+			   document.getElementById('arr0w').style = 'background-image: url("sites/default/themes/snowball/img/language-arrow.png");';
+			   document.getElementById('bottom-languages').style = 'display: none;';
+			   langOpen = false;
+		   }
+		}
 
+		function loadGame() {
+			var f = checkFlash();
+			if(!f) return;
 
-    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1478366444112-1 section-element prevent-resizable" data-silex-id="silex-id-1478366444112-1" style="">
-        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1478366444112-0"></div>
-    </div>
-    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1474394621033-3 section-element prevent-resizable" data-silex-id="silex-id-1474394621033-3" style="">
-        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1474394621032-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1474394621032-2"></div>
-    </div>
-    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1478366450713-3 section-element prevent-resizable" data-silex-id="silex-id-1478366450713-3" style="">
-        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366450713-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1478366450713-2">
+			$.get('https://cponline.pw/date.txt?v=' + new Date().getTime(), function(data) {
+				version = data;
+				if(checkIfIE()) version = new Date().toISOString().replace('-', '/').split('T')[0].replace('-', '');
+				$("#D_F_GameSection").html('<object type="application/x-shockwave-flash" id="cp_flash" name="cp_flash" class="disney_land_clubpenguin_player" data="//media1.cponline.pw/play/v2/client/club_penguin.swf?clientVersion=' + version + '" width="100%" height="100%" style="left: 0px;"><param name="menu" value="false"><param name="quality" value="high"><param name="allowScriptAccess" value="always"><param name="wmode" value="transparent"><param name="flashvars" value="play=//media1.cponline.pw/play/&client=//media1.cponline.pw/play/v2/client/&content=//media1.cponline.pw/play/v2/content/&games=//media1.cponline.pw/play/v2/games/&connectionID=cp67440&a=0&p=1&nau=&nal=&nas=&nad=&lang=en&phrasechat=http://cponline.pw/api.disney.com/social/autocomplete/v2/search/&isAS3WebServicesOn=true&cacheVersion=' + version + '&clientVersion=' + version + '&configVersion=' + version + '&contentVersion=' + version + '&minigameVersion=' + version + '"></object>');
 
-            <div data-silex-id="silex-id-1442914737143-3" class="editable-style silex-id-1442914737143-3 text-element" data-silex-type="text-element" style="">
-                <div class="silex-element-content normal">
-                    <br>
-                    <div style="text-align: center;"><a href="//www.silex.me/">Powered by Silex</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
+				<!--<center><a href="#chat" id="toggleChats" style="cursor: pointer;" onclick="toggleChat();">Show Chat</a></center><div style="text-align:center" id="chat"></div>-->//add back to html^
+				//$("#chat").hide();
+				//$("#chat").html('<iframe style="border: 2px solid #2d5ba2;border-radius:7px" src="https://talkr.net/chat/embed.php?id=3&cB=' + version +'" width=750 height=450 sandbox="allow-scripts"></iframe>');
+			});
+		}
 
+		function restoreEnableButton(event) {
+			if(document.readyState !== "complete") return;
+			clearInterval(window.backupTimer);
+			document.getElementById("askPermission").href = "http://www.adobe.com/go/getflashplayer";
+			document.getElementById("btnImg").style.cursor = "pointer";
+			document.getElementById("btnImg").style.opacity = 1;
+		}
 
+		function checkFlash() {
+			if(navigator.mimeTypes["application/x-shockwave-flash"] == undefined) {
+				$("#D_F_GameSection").html('<center><div id="upgrade" style="margin-top: -150px;"> <div id="upgradeContent"> <div id="upgradeText"> <h1>Enable Flash Player to Play Club Penguin Online!</h1> <p style="color:black;">Please click to enable flash player!</p></div></div><div id="upgradeButton"><a id="askPermission" href="https://adobe.com/go/getflashplayer"><img src="https://media2.cponline.pw/img/enableButton.png" id="btnImg"/></a></div></div></center>');
+				if(document.readyState !== "complete") {
+					document.getElementById("askPermission").href = "#";
+					document.getElementById("btnImg").style.cursor = "progress";
+					document.getElementById("btnImg").style.opacity = 0.5;
+					window.backupTimer = setInterval(function() { restoreEnableButton(); }, 1500);
+				}
+				return false;
+			}
+			return true;
+		}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body></html>
+		var version = new Date().getTime();
+		loadGame();
+	</script>
+	<script src="//friends.cponline.pw/js/disney-friends-ostrta-min.js?v=1.3.70" type="text/javascript">
+	</script>
+</body>
+</html>
